@@ -1,0 +1,40 @@
+﻿@page
+@using HelloWorldWebapp.Models
+ @model HelloWorldWebapp.Pages.CarsModel
+ @{
+    ViewData["Title"] = "Cars";
+}
+
+<h1>Cars</h1>
+
+<table border="1px">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    @foreach (var car in Model.cars)
+    {
+        <tr>
+            <td>
+                @car.Name
+            </td>
+            <td>
+                @car.Color
+            </td>
+        </tr>
+    }
+</table>
+
+<form method="post">
+    <label asp-for="NewCar.Name">Name</label>
+    <input type="text" asp-for="NewCar.Name" />
+
+    <label asp-for="NewCar.Color">Color</label>
+    <input type="text" asp-for="NewCar.Color" />
+
+    <button class="btn-primary btn">Add</button>
+</form>
+
+

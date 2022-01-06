@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4901693e-4ea7-4bc4-a9ec-6fc9253b6a04": {
+      "ProjectGuid": "4901693e-4ea7-4bc4-a9ec-6fc9253b6a04",
+      "DisplayName": "HelloWorldWebapp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
